@@ -28,7 +28,7 @@ Summary:        %{summary}
 BuildRequires:  python2-devel
 BuildRequires:  python2-setuptools
 
-Requires:       python2-XStatic
+Requires:       python-XStatic
 Requires:       xstatic-patternfly-common
 
 %{?python_provide:%python_provide python2-%{pypi_name}}
